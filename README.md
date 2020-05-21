@@ -15,6 +15,9 @@ Start Time, End Time, Trip Duration (in seconds), Start Station, End Station, Us
 
 As you can see there's plenty of information to look into 😎 So let's dive in!
 
+## Awesome, can't wait. But how can I run this stuff?
+No worries, it's pretty easy. You just have to install the Python libraries that are the dependencies for this project - you can see them at the top of `bikeshare.py`. After you'll have them installed in your Python environment, just run `streamlit run bikeshare.py` and you should be good to go!
+
 ### TODOs:
 
 * Add links to 3rd party resources

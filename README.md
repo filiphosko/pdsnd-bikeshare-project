@@ -6,7 +6,15 @@ The purpose is to showcase the final Python project of this Nanodegree that focu
 
 Except Pandas I also used the Streamlit framework for data visualization https://www.streamlit.io/. With it I was able to put together a basic Python app with charts and filtering based on select boxes - from the UX standpoint I liked it much more than just having the user to interact with the shell environment 😉
 
+## So we can look at some charts? That's exciting!
+Yep, I can feel your excitement. The app was built to visualize data provided by the US bike sharing provider Motivate https://www.motivateco.com. It was tested using a small subset of data for three cities: Chicago, New York and Washington.
+
+The dataset contained these columns:
+
+Start Time, End Time, Trip Duration (in seconds), Start Station, End Station, User Type, Gender (only for Chicago and New York), Birth Year (only for Chicago and New York)
+
+As you can see there's plenty of information to look into 😎 So let's dive in!
+
 ### TODOs:
 
-* Describe files used
 * Add links to 3rd party resources

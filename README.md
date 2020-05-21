@@ -1,15 +1,14 @@
-### Date created
-Include the date you created this project and README file.
+# Bikeshare project for Udacity's Programming for Data Science with Python
+Created on May 21, 2020
 
-### Project Title
-Replace the Project Title
+## What's this repository about?
+The purpose is to showcase the final Python project of this Nanodegree that focuses mostly on Pythons's libraries that are frequently used in the data science domain (here it's especially Pandas).
 
-### Description
-Describe what your project is about and what it does
+Except Pandas I also used a Streamlit framework for data visualization.
 
-### Files used
-Include the files used
+### TODOs:
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+* Add more info about Streamlit and how to run the app
+* Describe files used
+* Add links to 3rd party resources
 

@@ -1,13 +1,14 @@
-DATA_DIR = 'data'
+DATA_DIR = "data"
 
-CITY_DATA = {'chicago': 'chicago.csv',
-             'new york city': 'new_york_city.csv',
-             'washington': 'washington.csv'}
+CITY_DATA = {
+    "chicago": "chicago.csv",
+    "new york city": "new_york_city.csv",
+    "washington": "washington.csv",
+}
 
-MONTHS = ['january', 'february', 'march', 'april', 'may', 'june']
+MONTHS = ["january", "february", "march", "april", "may", "june"]
 
-DAYS = ['monday', 'tuesday', 'wednesday',
-        'thursday', 'friday', 'saturday', 'sunday']
+DAYS = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
 
 GENERATIONS = [
     ((2000, 0), "Generation Z"),
@@ -16,5 +17,5 @@ GENERATIONS = [
     ((1946, 1964), "Baby Boomers"),
     ((1925, 1945), "the Silent Generation"),
     ((1900, 1924), "the G.I. Generation"),
-    ((0, 1899), "born before year 1900")
+    ((0, 1899), "born before year 1900"),
 ]

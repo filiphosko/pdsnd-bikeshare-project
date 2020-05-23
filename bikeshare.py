@@ -22,10 +22,15 @@ def main():
     df = create_additional_columns(df)
 
     # Create visualizations for 'general overview' stats
-    st.write(
-        "### Table structure for {} bike trips (first five rows)".format(city.title()),
-        df.head(),
+    st.markdown("### Raw data for {} bike trips".format(city.title()))
+    number_of_rows = st.number_input(
+        label="Please select the number of rows you'd like to see",
+        min_value=5,
+        max_value=len(df.index),
+        value=5,
+        step=5,
     )
+    st.write(df.iloc[0:number_of_rows])
 
     missing_values = df.isnull().sum().where(lambda x: x > 0).dropna()
 

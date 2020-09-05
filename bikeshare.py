@@ -18,8 +18,7 @@ def main():
     )
 
     # Load the CSV data and create additional columns
-    df = load_data(city)
-    df = create_additional_columns(df)
+    df = prepare_data(city)
 
     # Create visualizations for 'general overview' stats
     st.markdown("### Raw data for {} bike trips".format(city.title()))
@@ -287,6 +286,14 @@ def create_additional_columns(df):
             data=map(lambda x: x[1], generations),
             index=map(lambda x: x[0], generations),
         )
+
+    return df
+
+
+@st.cache
+def prepare_data(city):
+    df = load_data(city)
+    df = create_additional_columns(df)
 
     return df
 
